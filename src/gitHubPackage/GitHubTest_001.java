@@ -10,7 +10,7 @@ public class GitHubTest_001 {
 
 	public static void main(String[] args) throws InterruptedException {
 	System.out.println("hii ravish...");
-	System.setProperty("webdriver.chrome.driver","E:\\work1\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\work1\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.careerpower.in/upcoming-bank-exams.html");
 	driver.manage().window().maximize();
